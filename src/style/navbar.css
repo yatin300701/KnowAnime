@@ -1,0 +1,62 @@
+.top-nav-bar{
+  background-color: #050402;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.no_decoration{
+  text-decoration: none;
+  color: white;
+
+}
+.no_decoration:hover{
+  color: yellow;
+}
+.logo-name{
+  font-size: 20px;
+  font-weight: 800;
+}
+.nav-input-search{
+  margin-left:15px ;
+}
+
+/* genres */
+.dropdown-btn{
+  background-color: black;
+  color: white;
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a{
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: black}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropdown-btn {
+  background-color: #3e8e41;
+}
+
+@media only screen and (max-width: 990px){
+    .search-btn {
+      display: none;
+    }
+  }

@@ -1,0 +1,21 @@
+.carousele{
+    color:white;
+    height: 100px;
+    background-color: black;
+    width: 100%;
+
+}
+.wallpaper-top{
+    height: 100px;
+    background-color: antiquewhite;
+    width: 100%;
+    color: white;
+    
+}
+.img-wallpaper{
+    width: 100%;
+    
+}
+.img-wallpaper-details{
+    font-size: 40px;
+}

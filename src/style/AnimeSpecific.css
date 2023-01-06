@@ -1,0 +1,12 @@
+.anime-specific-box{
+    display: flex;
+    /* flex-direction: row; */
+}
+.img-anime-specific{
+    width: 200px;
+    height: 300px;
+}
+.anime-specific-details{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}

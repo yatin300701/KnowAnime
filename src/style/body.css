@@ -1,0 +1,117 @@
+.anime-cards{
+    padding: 5px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.anime-img-cards {
+    height: 300px;
+}
+.anime-cards-top-a{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+}
+.anime-crad-title{
+    display: flex;
+    justify-content: center;
+    color: azure;
+}
+.anime-crad-title a{
+    text-decoration: none;
+    color: white;
+}
+.anime-crad-title a:hover {
+    color: rgb(255, 187, 0);
+}
+.anime-cards-top a {
+    color: rgb(102, 101, 101);
+    text-decoration: none;
+}
+.anime-cards-top a:hover{
+    color: rgb(102, 101, 101);
+}
+
+.anime-cards-top:hover  {
+    background-color: rgb(255, 187, 0);
+    border-radius: 2%;
+}
+
+/* side bar */
+
+.side-bar{
+    text-decoration: none;
+}
+.img-anime-side{
+    height: 100px;
+}
+.top-anime-side{
+    margin: 15px 0px;
+    padding: 10px;
+    border-radius: 5px;   
+}
+.top-anime-side:hover{
+    background-color:rgb(56, 55, 55) ;
+}
+
+.side-1-para {
+    color: aliceblue;
+}
+.side-2-para{
+    color: rgb(102, 101, 101);
+}
+
+
+
+
+/* Responsive */
+
+@media only screen and (max-width: 1400px){
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media only screen and (max-width: 1200px){
+    .top-anime-side{
+        margin: 10px 0px;
+        padding: 0px;
+        border-radius: 5px;   
+    }
+    .side-2-para{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+@media only screen and (max-width: 990px){
+    .right-side-anime-div{
+        display: none;   
+    }
+    
+    .anime-cards{
+        padding: 0px;
+    }
+}
+@media only screen and (max-width: 777px){
+    .right-side-anime-div{
+        display: none;   
+    }
+    
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (max-width: 504px){
+    .right-side-anime-div{
+        display: none;   
+    }
+    
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}

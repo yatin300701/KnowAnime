@@ -1,0 +1,38 @@
+.genre-card{
+    display: flex;   
+    height: 80vh;
+    /* padding: 10px; */
+}
+.genre-img{
+    width: 300px;
+    height: 450px;
+    /* margin:30px; */
+    margin: 3px 10px;
+}
+
+.genre-img-cover{
+    width: 320px;
+    height: 455px;
+    background: white;
+    margin:  30px ;
+    /* position: relative; */
+}
+
+.genre-detail{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+}
+
+.hp{
+    font-size: 50px;
+    margin: 30px ;
+    font-weight: 800;
+    color: #d4a52c;;
+}
+
+.countp{
+    font-size: 30px;
+}
